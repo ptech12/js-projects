@@ -25,8 +25,10 @@ body{
 .accordian .accordian-title{
     text-align: center;
     margin-bottom: 30px;
-
+    transition: 0.5;
 }
+
+
 
 .accordian .content-container .question{
     padding: 18px 0px;
@@ -44,11 +46,28 @@ body{
 
 .accordian .content-container .answer{
     padding-top: 15px;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5;
     width: 100%;
     /* display: none; */
     height: 0px;
     overflow: hidden;
     transition: 0.5s;
+}
+
+/*  Javascript Styling Link */
+.accordian .content-container.active .answer{
+    height: 150px;
+}
+
+.accordian .content-container.active .question{
+    font-size: 18px;
+    transition: .5s;
+}
+.accordian .content-container.active .question::after{
+    content: '-';
+    font-size: 30px;
+    transition: 1s;
+    /* font-size: 18px;
+    transition: .5s; */
 }
