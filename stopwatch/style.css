@@ -20,11 +20,12 @@ body{
     justify-content: center;
     align-items: center;
     /* font-family: 'Poppins', sans-serif; */
-
+    
 }
 
 .container{
-    background-color: #fff;
+    /* background-color: #fff; */
+    /* background: url(../imgs/bg-4.jpg) no-repeat center center/ cover; */
     padding: 20px 40px;
     
     width: 60%;
@@ -43,7 +44,7 @@ body{
 
 #timer{
     width: 100%;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 400;
     text-align: center;
     margin: 0 auto;
