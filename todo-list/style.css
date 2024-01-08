@@ -23,7 +23,7 @@ body{
 }
 
 #add-task-container{
-    width: 350px;
+    width: 400px;
     padding: 20px 10px;
     margin-bottom: 20px;
     background-color: #fff;
@@ -86,15 +86,33 @@ input{
     margin: 10px;
     
     font-size: 1.3rem;
+    margin: 10px;
 }
 
 .task button{
-    flex: 3;
+    flex: 1;
     border-radius: 10px;
     background-color: #fff;
     cursor: pointer;
 }
 
 .task .checkTask{
-    
+    margin-right: 5px;
+    border: solid 2px orange;
+    color: orange;
+    font-size: 1.2rem;
+}
+.task .checkTask:hover{
+    background-color: orange;
+    color: white;
+}
+
+.task .deleteTask{
+    border: solid 2px red;
+    color: red;
+    font-size: 1.2rem;
+}
+.task .deleteTask:hover{
+    background-color: red;
+    color: white;
 }

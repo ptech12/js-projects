@@ -26,9 +26,11 @@ addTask.addEventListener('click', () => {
     let deleteButton = document.createElement("button");
     deleteButton.innerHTML = '<i class="fa-solid fa-trash-can"></i>';
 
+    checkButton.classList.add('checkTask')
+    deleteButton.classList.add('deleteTask')
     // task.appendChild(checkButton);
-    task.append(deleteButton);
     task.append(checkButton);
+    task.append(deleteButton);
     // task.appendChild(deleteButton);
 
     if(inputTask.value === ""){
@@ -37,7 +39,18 @@ addTask.addEventListener('click', () => {
         taskContainer.appendChild(task);
     }
     
-    // inputTask.value = ""
+    inputTask.value = ""
+
+    checkButton.addEventListener('click', () => {
+        checkButton.parentElement.style.textDecoration = 'line-through';
+    })
+
+    deleteButton.addEventListener('click', (e) => {
+        let target = e.target;
+        
+        console.log(target.parentElement.parentElement);
+        target.parentElement.parentElement.remove();
+    })
 
 
 })
