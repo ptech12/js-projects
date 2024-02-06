@@ -9,4 +9,4 @@ Project #3: [Accordian](https://github.com/ptech12/js-projects/tree/f79025c2dd2c
 
 Project #4: [StopWatch](https://github.com/ptech12/js-projects/tree/678c0e33ab8cceaffcbdc99863570ca30d06159b/stopwatch) ⏱️
 
-Project $5: [TODO List](https://github.com/ptech12/js-projects/tree/0483db252aa8eeff1d291704a512b191e946c9be/todo-list)
+Project #5: [TODO List](https://github.com/ptech12/js-projects/tree/0483db252aa8eeff1d291704a512b191e946c9be/todo-list)
